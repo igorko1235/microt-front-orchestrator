@@ -43,9 +43,7 @@
               "node_modules/systemjs/dist/system.js",
               "node_modules/systemjs/dist/extras/named-exports.js",
               "node_modules/systemjs/dist/extras/named-register.js",
-              "node_modules/systemjs/dist/extras/use-default.js",
-              "node_modules/single-spa/lib/umd/single-spa.dev.js",
-              "./src/single-spa-config.js"
+              "node_modules/systemjs/dist/extras/use-default.js"
             ]
           },
           "configurations": {
