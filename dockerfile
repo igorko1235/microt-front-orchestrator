@@ -26,7 +26,7 @@ RUN ng build --prod
 ############
 
 # expose port 80
-EXPOSE 80
+EXPOSE 8080
 
 # run node.js
 CMD npm run start-static
