@@ -1,9 +1,9 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { PrimaryNavComponent } from './primary-nav/primary-nav.component';
+import {AppRoutingModule} from './app-routing.module';
+import {AppComponent} from './app.component';
+import {PrimaryNavComponent} from './primary-nav/primary-nav.component';
 import {EmptyRouteComponent} from './empty-route/empty-route.component';
 
 @NgModule({
@@ -19,4 +19,5 @@ import {EmptyRouteComponent} from './empty-route/empty-route.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
